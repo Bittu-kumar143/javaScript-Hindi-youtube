@@ -54,7 +54,21 @@ console.log(Object.entries(tinderUser));
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
 
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseinstructor: "Bittu"
+}
 
+//course.courseInstructor
 
+const{courseinstructor: instructor} = course //this is known as destructuring
 
+//console.log(courseinstructor);
+console.log(instructor);
 
+/*  {                                 //This is known as json
+    "name": "Bittu"
+    "coursename": "js in hindi"
+    "price": "free"
+}*/
