@@ -38,7 +38,7 @@ if(true){
 
 
 //++++++++++++++++++++++ INTERESTING +++++++++++++++++//
-console.log(addone(5))  
+console.log(addone(5))   
 function addone(num){
     return num + 1;
 }
@@ -48,4 +48,4 @@ console.log(addtwo(5));
 const addtwo = function(num){
     return num + 2;
 }    
-ad dtwo(5)
+addtwo(5)
